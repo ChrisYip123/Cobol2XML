@@ -28,4 +28,5 @@
 <base_16 Value="16.0"/>
 </Constant>
 <division>procedure</division>
+<comment>allineamentoa destra della variabile entry_char ( ver 2.3 0.1 o sup )</comment>
 </cobol>

@@ -69,9 +69,18 @@ public class Cobol2XML {
 		while (true) {
 			// throws IOException
 			String s = r.readLine();
+			if(s != null && !s.contains(".")) {
+				String k = "";
+				while ((k = r.readLine()) != null) {
+					s += " "+ k.trim();
+					if(k.contains("."))
+						break;
+				}
+			}
 			if (s == null) {
 				break;
 			}
+			System.out.println(s);
 			t.setString(s);
 			Assembly in = new TokenAssembly(t);
 			Assembly out = p.bestMatch(in);

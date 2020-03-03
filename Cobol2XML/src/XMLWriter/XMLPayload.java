@@ -127,6 +127,16 @@ public class XMLPayload {
 		} else {
 		//System.out.println("Comment Line null");
 		}
+		
+		String commentLine = c.getCommentLine();
+		if (commentLine != null) {
+			this.addCommentLineElement( commentLine );
+			//System.out.println("Got Section");
+			// Add contents of procedure division
+		} else {
+			//System.out.println("Comment Line null");
+		}
+
 
 	}
 	

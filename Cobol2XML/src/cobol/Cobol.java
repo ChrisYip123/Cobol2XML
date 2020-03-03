@@ -31,8 +31,7 @@ public class Cobol implements PubliclyCloneable {
 	protected int dayDateWritten = 0;
 	protected String monthDateWritten;
 	protected int yearDateWritten = 0;
-	protected String constantName;
-	
+	protected String constantName;	
 
 	protected double constantValue;
 	protected int linenumber = 0;
@@ -265,4 +264,6 @@ public class Cobol implements PubliclyCloneable {
 		
 		return buf.toString();
 	}
+	
+	
 }
