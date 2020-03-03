@@ -28,6 +28,7 @@ import parse.tokens.*;
 
 public class Cobol2XML {
 	/**
+	 * TEST
 	 * Recognise some basic constructs in a COBOL source code file.
 	 * And then produce a well-formed XML file with the data identified
 	 * 
